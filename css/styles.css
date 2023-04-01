@@ -1,0 +1,191 @@
+:root {
+    --font-primary: 'Roboto', sans-serif;
+    --font-logo: 'Raleway', sans-serif;
+    /* COLORS */
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy-blue: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --color-grey: rgba(46, 47, 66, 0.7);
+
+    /* Header background, team card background */
+    --color-white: #ffffff;
+    --color-dairy: #fcfcfc;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: none;
+    background-color: var(--color-white);
+    color: var(--color-slate);
+}
+
+.text-style-header-1 {
+    font-size: 56px;
+    font-family: inherit;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.text-style-header-2 {
+    font-size: 36px;
+    font-family: inherit;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.text-style-header-3 {
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.text-style-body-medium {
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.text-style-button-text {
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.text-style-small-text {
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    font-style: normal;
+    text-decoration: none;
+    color: currentColor;
+}
+
+.contact .link:hover,
+.contact .link:focus {
+    color: var(--color-ocean);
+}
+
+/* BUTTONS */
+/* portfolio filter buttons */
+.btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: var(--color-cloud);
+    color: var(--color-iris);
+    height: 48px;
+    border-radius: 4px;
+}
+
+.btn:hover,
+.btn:focus {
+    cursor: pointer;
+    background-color: var(--color-ocean);
+    color: var(--color-white);
+}
+
+/* header */
+.logo {
+    color: var(--color-navy-blue);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo>span {
+    color: var(--color-iris);
+}
+
+.site-nav-item {
+    color: #2E2F42;
+}
+
+.site-nav-item .link:hover,
+.site-nav-item .link:focus {
+    color: var(--color-ocean);
+}
+
+/* MAIN */
+/* hero */
+.hero {
+    width: 1440px;
+    height: 600px;
+    background-color: var(--color-navy-blue);
+    color: var(--color-white);
+}
+
+.hero .btn {
+    width: 169px;
+    height: 56px;
+    background: var(--color-iris);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: var(--color-white);
+}
+
+.hero .btn:hover,
+.hero .btn:focus {
+    background-color: var(--color-ocean);
+}
+
+/* section 1 Digitalization */
+
+
+/* section 3 Team */
+.team {
+    background-color: var(--color-cloud);
+}
+
+.team-card {
+    background-color: var(--color-white);
+}
+
+/* PORTFOLIO */
+.projects-list-item {}
