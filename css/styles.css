@@ -31,18 +31,18 @@ body {
     color: var(--color-slate);
 }
 
-.text-style-header-1 {
+.title-1 {
     font-size: 56px;
     font-family: inherit;
     font-weight: 700;
     font-style: normal;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-decoration: none;
     text-transform: none;
 }
 
-.text-style-header-2 {
+.title-2 {
     font-size: 36px;
     font-family: inherit;
     font-weight: 700;
@@ -53,7 +53,7 @@ body {
     text-transform: capitalize;
 }
 
-.text-style-header-3 {
+.title-3 {
     font-size: 20px;
     font-family: inherit;
     font-weight: 500;
@@ -107,8 +107,8 @@ body {
     color: currentColor;
 }
 
-.contact .link:hover,
-.contact .link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: var(--color-ocean);
 }
 
@@ -119,7 +119,8 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: var(--color-cloud);
     color: var(--color-iris);
     height: 48px;
@@ -133,23 +134,30 @@ body {
     color: var(--color-white);
 }
 
+/* PAGES */
 /* header */
 .logo {
-    color: var(--color-navy-blue);
+    font-family: var(--font-logo);
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    color: var(--color-iris);
     text-decoration: none;
     text-transform: uppercase;
 }
 
-.logo>span {
-    color: var(--color-iris);
+.logo-std-header {
+    color: var(--color-navy-blue);
 }
 
-.site-nav-item {
-    color: #2E2F42;
+
+
+.header-nav-link {
+    color: var(--color-navy-blue);
 }
 
-.site-nav-item .link:hover,
-.site-nav-item .link:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
     color: var(--color-ocean);
 }
 
@@ -160,6 +168,7 @@ body {
     height: 600px;
     background-color: var(--color-navy-blue);
     color: var(--color-white);
+    text-align: center;
 }
 
 .hero .btn {
@@ -189,3 +198,12 @@ body {
 
 /* PORTFOLIO */
 .projects-list-item {}
+
+.footer {
+    color: var(--color-cloud);
+    background-color: var(--color-navy-blue);
+}
+
+.logo-std-footer {
+    color: var(--color-cloud);
+}
