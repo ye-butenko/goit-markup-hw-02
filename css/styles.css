@@ -40,6 +40,7 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     text-transform: none;
+    color: var(--color-white);
 }
 
 .title-2 {
@@ -51,6 +52,7 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     text-transform: capitalize;
+    color: var(--color-navy-blue);
 }
 
 .title-3 {
@@ -62,6 +64,7 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     text-transform: none;
+    color: var(--color-navy-blue);
 }
 
 .text-style-body-medium {
@@ -140,9 +143,9 @@ body {
     font-family: var(--font-logo);
     font-weight: 800;
     font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--color-iris);
-    text-decoration: none;
     text-transform: uppercase;
 }
 
@@ -151,6 +154,7 @@ body {
 }
 
 .header-nav-link {
+    font-weight: 500;
     color: var(--color-navy-blue);
 }
 
@@ -160,7 +164,7 @@ body {
 }
 
 /* MAIN */
-/* hero */
+/* hero ↓↓↓ */
 .hero {
     width: 1440px;
     height: 600px;
@@ -169,7 +173,7 @@ body {
     text-align: center;
 }
 
-.hero .btn {
+.hero-btn {
     width: 169px;
     height: 56px;
     background: var(--color-iris);
@@ -177,15 +181,17 @@ body {
     color: var(--color-white);
 }
 
-.hero .btn:hover,
-.hero .btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: var(--color-ocean);
 }
 
-/* section 1 Digitalization */
+/* hero ↑↑↑ */
+
+/* section 2 Digitalization ↓↓↓ */
 
 
-/* section 3 Team */
+/* section 4 Team ↓↓↓ */
 .team {
     background-color: var(--color-cloud);
 }
@@ -194,9 +200,11 @@ body {
     background-color: var(--color-white);
 }
 
-/* PORTFOLIO */
-.projects-list-item {}
+/* PORTFOLIO ↓↓↓ */
 
+
+
+/* FOOTER ↓↓↓ */
 .footer {
     color: var(--color-cloud);
     background-color: var(--color-navy-blue);
