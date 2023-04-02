@@ -48,7 +48,7 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-style: normal;
-    line-height: 40px;
+    line-height: 1.11px;
     letter-spacing: 0.02em;
     text-decoration: none;
     text-transform: capitalize;
@@ -60,44 +60,11 @@ body {
     font-family: inherit;
     font-weight: 500;
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.2px;
     letter-spacing: 0.02em;
     text-decoration: none;
     text-transform: none;
     color: var(--color-navy-blue);
-}
-
-.text-style-body-medium {
-    font-size: 16px;
-    font-family: inherit;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    text-transform: none;
-}
-
-.text-style-button-text {
-    font-size: 16px;
-    font-family: inherit;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    text-decoration: none;
-    text-transform: none;
-}
-
-.text-style-small-text {
-    font-size: 12px;
-    font-family: inherit;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 14px;
-    letter-spacing: 0.04em;
-    text-decoration: none;
-    text-transform: none;
 }
 
 .list {
@@ -105,14 +72,8 @@ body {
 }
 
 .link {
-    font-style: normal;
     text-decoration: none;
     color: currentColor;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: var(--color-ocean);
 }
 
 /* BUTTONS */
@@ -163,6 +124,15 @@ body {
     color: var(--color-ocean);
 }
 
+.contact {
+    font-style: normal;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--color-ocean);
+}
+
 /* MAIN */
 /* hero ↓↓↓ */
 .hero {
@@ -194,6 +164,10 @@ body {
 /* section 4 Team ↓↓↓ */
 .team {
     background-color: var(--color-cloud);
+}
+
+.team-title {
+    text-align: center;
 }
 
 .team-card {
