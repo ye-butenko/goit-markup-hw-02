@@ -31,7 +31,7 @@ body {
     color: var(--color-slate);
 }
 
-.title-1 {
+.title-hero {
     font-size: 56px;
     font-family: inherit;
     font-weight: 700;
@@ -43,7 +43,7 @@ body {
     color: var(--color-white);
 }
 
-.title-2 {
+.title-primary {
     font-size: 36px;
     font-family: inherit;
     font-weight: 700;
@@ -55,7 +55,7 @@ body {
     color: var(--color-navy-blue);
 }
 
-.title-3 {
+.title-secondary {
     font-size: 20px;
     font-family: inherit;
     font-weight: 500;
